@@ -1,0 +1,11 @@
+# If this is your first time writing a language grammar, check out:
+#   - https://flight-manual.atom.io/hacking-atom/sections/creating-a-grammar/
+#   - https://gist.github.com/Aerijo/b8c82d647db783187804e86fa0a604a1
+
+'scopeName': 'source.rsh'
+'name': 'Reach'
+'fileTypes': [
+  'rsh'
+]
+'parser': 'javascript'
+'patterns': [{ include: 'source.js' }]

@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Run Reach Program",
+        "command": "reach-ide:run"
+      },
+      {
+        "label": "Compile Reach Program",
+        "command": "reach-ide:compile"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Reach IDE",
+          "submenu": [
+            {
+              "label": "Run Program",
+              "command": "reach-ide:run"
+            },
+            {
+              "label": "Compile Program",
+              "command": "reach-ide:compile"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

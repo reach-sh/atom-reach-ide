@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-shift-r": "reach-ide:run",
+    "ctrl-shift-c": "reach-ide:compile"
+  }
+}

@@ -1,0 +1,8 @@
+# If you want some example snippets, check out:
+# https://github.com/atom/language-javascript/blob/master/snippets/javascript.cson
+
+'.source.rsh':
+  'Simple Reach Program':
+    'prefix': 'reach'
+    'body': '
+\'reach 0.1\';\n\nexport const main =\n Reach.App(\n    {},\n    [[\'A\', {}], [\'B\', {}]],\n    (A, B) => {\n      exit(); }\n  );\n'
