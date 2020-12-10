@@ -10,7 +10,7 @@
   "activationCommands": {
     "atom-workspace": ["reach-ide:run", "reach-ide:compile"]
   },
-  "repository": "https://github.com/atom/reach-ide",
+  "repository": "https://github.com/reach-sh/atom-reach-ide",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
